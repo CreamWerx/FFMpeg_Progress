@@ -68,7 +68,7 @@ namespace FFMpeg_Progress
 
         }
 
-        private void btnStart_Click(object sender, EventArgs e)
+        private async void btnStart_Click(object sender, EventArgs e)
         {
             //var targetFile = @"C:\Test\copied.mp4";
             //for (int i = 0; i <= 50; i++)
@@ -76,8 +76,9 @@ namespace FFMpeg_Progress
             //    progress1.Value = i.PercentOf(progress1.Width);
             //}
             
-            Task.Run(()=> FFMpeg.ExtractSegments(BookMarks, @"C:\Test\copied.mp4", ConversionProgress));
-        }
+            await Task.Run(()=> FFMpeg.ExtractSegments(BookMarks, @"C:\Test\copied.mp4", ConversionProgress));
+            progress1.Value = 0;
+         }
     }
 
     public static class Extrnsions

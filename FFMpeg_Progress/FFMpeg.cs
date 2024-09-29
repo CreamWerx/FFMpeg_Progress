@@ -84,6 +84,7 @@ namespace FFMpeg_Progress
                 }
 
             }
+            return;
         }
 
         public static void ExtractSegment(BookMark bookMark, string inputfile, string outputfile, IProgress<int> progress)
@@ -149,6 +150,8 @@ namespace FFMpeg_Progress
                     }
 
                 }
+
+                //await Task.Delay(100);
                 //progress.Report(0);
                 //lblprogress[1].Invoke(new Action(() => lblprogress[1].Progress(0)));
                 //lblprogress[0].Invoke(new Action(() => lblprogress[0].BackColor = SystemColors.InactiveCaption));
