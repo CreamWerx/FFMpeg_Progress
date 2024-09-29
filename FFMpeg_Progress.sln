@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFMpeg_Progress", "FFMpeg_Progress\FFMpeg_Progress.csproj", "{34798062-A87E-4EF7-9419-074286CAB4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressLabel", "ProgressLabel\ProgressLabel.csproj", "{CF42EE65-E195-4B47-AEB9-D9FB3F8C4305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34798062-A87E-4EF7-9419-074286CAB4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34798062-A87E-4EF7-9419-074286CAB4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34798062-A87E-4EF7-9419-074286CAB4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34798062-A87E-4EF7-9419-074286CAB4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF42EE65-E195-4B47-AEB9-D9FB3F8C4305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF42EE65-E195-4B47-AEB9-D9FB3F8C4305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF42EE65-E195-4B47-AEB9-D9FB3F8C4305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF42EE65-E195-4B47-AEB9-D9FB3F8C4305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9323520F-3F94-45BA-ACD6-6250316B2153}
+	EndGlobalSection
+EndGlobal
